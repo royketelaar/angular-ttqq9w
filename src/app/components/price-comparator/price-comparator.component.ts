@@ -21,18 +21,18 @@ export class PriceComparatorComponent implements OnInit {
   coindeal_buy_price: any;
   coindeal_sell_price: any;
 
-  buy_data: [
-    {
-      broker: string;
-      price: number
-    }
-  ] = []; 
-  sell_data: [
-    {
-      broker: string;
-      price: number
-    }
-  ] = []
+  // buy_data: [
+  //   {
+  //     broker: string;
+  //     price: number
+  //   }
+  // ] = []; 
+  // sell_data: [
+  //   {
+  //     broker: string;
+  //     price: number
+  //   }
+  // ] = []
 
   constructor(
     private http:HttpClient
