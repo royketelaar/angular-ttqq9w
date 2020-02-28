@@ -10,7 +10,7 @@ import { PriceData } from '../../interfaces/price-data';
 })
 export class PriceComparatorComponent implements OnInit {
   interval: any;
-  but_data: PriceData
+  buy_data: PriceData
   
   bitonic_buy_price: any;
   bitonic_sell_price: any;
